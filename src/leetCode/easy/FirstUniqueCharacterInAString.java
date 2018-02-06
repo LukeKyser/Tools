@@ -18,7 +18,7 @@ import java.util.Objects;
 public class FirstUniqueCharacterInAString {
 
     public static void main(String[] args){
-        String str = "castlileintheDarknessc"; // Index of FNRC = 4
+        String str = "castliiileintheDarknessc"; // Index of FNRC = 4
 
         System.out.println("fnrc: " + str.substring(1, str.length()));
         System.out.println("FNRC Index: " + firstUniqChar(str));
